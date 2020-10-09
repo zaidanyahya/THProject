@@ -3,24 +3,36 @@
 	<title>温度と湿度</title>
 	
 	<style>
-		a {
-			text-syle:none;
+		body, html{
+			padding:10em;
+			margin:0;
+		}
+		section{
+			width:100%;
+			margin:0 auto;
+			text-align:center;
+		}
+		a {	
 			text-decoration:none;
-			font-size:28px;
-			margin:auto auto;
-			padding:20px;
-			background-color: lightblue;
+			font-size:30px;
+			margin:auto 20px;
+			padding:10px;
+			text-align:center;
+			background-color: orange;
 			color:white;
+			transition-duration:0.3s;
 		}
 		a:hover{
-			background-color: blue;
+			background-color: grey;
 		}
 	</style>
 </head>
 <meta charset="utf-8">
 <body>
+	<section>
 	<a href="cgi-bin/add-data.py">データを追加する</a>
 	<a href="cgi-bin/view-data.py">データを表示する</a>
+	</section>
 </body>
 
 </html>
